@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PBLoginTest">
+  <test name="Test1">
+  <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="PB_Mudule1_LoginTest.PBLoginTest1"/>
+      <class name="PB_Mudule1_LoginTest.PBLoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+</suite> <!-- Suite -->
